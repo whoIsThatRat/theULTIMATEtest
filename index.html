@@ -1,13 +1,8 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-  </head>
   <body>
-    <form action = 'https://whoisthatrat.github.io/theULTIMATEtest/index.php' method = 'post'>
-      <label for = 'name'>Enter your name:</label>
-      <input type = 'text' name = 'input'><br>
-      <input type = 'submit'>
-    </form>
+    <script>
+      fetch('index.json').then(response => console.log(response))
+    </script>
   </body>
 </html>
